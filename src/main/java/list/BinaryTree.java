@@ -74,7 +74,6 @@ public class BinaryTree {
         if (root == null){
             return;
         }
-
         fallten2(root.right);
         fallten2(root.left);
         root.right = p;
